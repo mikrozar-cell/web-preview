@@ -242,7 +242,7 @@
     .kanzlei-item p { margin: 0; color: var(--muted); font-size: 15px; }
     .gal-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
       gap: 16px;
       margin-top: 22px;
     }
@@ -288,7 +288,7 @@
     dialog.legal-modal { border: 1px solid var(--rule); border-radius: var(--radius); max-width: 560px; width: 92%; padding: 26px; }
     dialog.legal-modal::backdrop { background: rgba(20, 20, 19, 0.55); }
     @media (max-width: 860px) {
-      .hero-grid, .about-grid, .ruled-row, .spec-grid, .kanzlei-grid, .contact-grid { grid-template-columns: 1fr; }
+      .hero-grid, .about-grid, .ruled-row, .spec-grid, .kanzlei-grid, .contact-grid, .gal-grid { grid-template-columns: 1fr; }
       .nav-links a:not(.nav-tel) { display: none; }
     }
   </style>
@@ -356,7 +356,7 @@
 
     <section id="about" class="band band-alt">
       <div class="container about-grid ">
-        <div class="about-media"><img src="assets/photo_2.jpg" alt="Underwood Plumbers" /></div>
+        <div class="about-media"><img src="assets/photo_3.jpg" alt="Underwood Plumbers" /></div>
         <div class="about-copy">
           <div class="eyebrow">About</div>
           <h2>About Our Practice</h2>
@@ -384,11 +384,10 @@
         <div class="eyebrow">Plumbing &amp; Heating Engineers</div>
         <h2>Recent Work</h2>
         <div class="gal-grid">
-        <figure class="gal-item"><img src="assets/photo_2.jpg" alt="Underwood Plumbers" loading="lazy" /></figure>
-        <figure class="gal-item"><img src="assets/photo_3.jpg" alt="Underwood Plumbers" loading="lazy" /></figure>
-        <figure class="gal-item"><img src="assets/photo_4.jpg" alt="Underwood Plumbers" loading="lazy" /></figure>
-        <figure class="gal-item"><img src="assets/photo_5.jpg" alt="Underwood Plumbers" loading="lazy" /></figure>
-        <figure class="gal-item"><img src="assets/photo_6.jpg" alt="Underwood Plumbers" loading="lazy" /></figure>
+        <figure class="gal-item"><img src="assets/photo_3.jpg" alt="Underwood Plumbers" /></figure>
+        <figure class="gal-item"><img src="assets/photo_4.jpg" alt="Underwood Plumbers" /></figure>
+        <figure class="gal-item"><img src="assets/photo_5.jpg" alt="Underwood Plumbers" /></figure>
+        <figure class="gal-item"><img src="assets/photo_6.jpg" alt="Underwood Plumbers" /></figure>
         </div>
       </div>
     </section>

@@ -242,7 +242,7 @@
     .kanzlei-item p { margin: 0; color: var(--muted); font-size: 15px; }
     .gal-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
       gap: 16px;
       margin-top: 22px;
     }
@@ -288,7 +288,7 @@
     dialog.legal-modal { border: 1px solid var(--rule); border-radius: var(--radius); max-width: 560px; width: 92%; padding: 26px; }
     dialog.legal-modal::backdrop { background: rgba(20, 20, 19, 0.55); }
     @media (max-width: 860px) {
-      .hero-grid, .about-grid, .ruled-row, .spec-grid, .kanzlei-grid, .contact-grid { grid-template-columns: 1fr; }
+      .hero-grid, .about-grid, .ruled-row, .spec-grid, .kanzlei-grid, .contact-grid, .gal-grid { grid-template-columns: 1fr; }
       .nav-links a:not(.nav-tel) { display: none; }
     }
   </style>
@@ -343,7 +343,7 @@
           </div>
         </div>
         <div class="ord-aside">
-          <img class="ord-photo" src="assets/photo_1.jpg" alt="Tierarztpraxis Moosbrunn - Dipl. Tzt. Irene Kohlweiß" />
+          <img class="ord-photo" src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Tierarztpraxis Moosbrunn - Dipl. Tzt. Irene Kohlweiß" />
           <div class="ord-box">
             <div class="ord-box-title">Sprech- &amp; Öffnungszeiten</div>
             <div class="ord-box-row"><span>Zeiten</span><span>Mo – Fr: 08:00 – 18:00 Uhr (nach Vereinbarung)</span></div>
